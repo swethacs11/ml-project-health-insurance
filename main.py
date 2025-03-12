@@ -1,5 +1,6 @@
 # codebasics ML course: codebasics.io, all rights reserverd
-
+import sys
+print(f"Python version on Streamlit: {sys.version}")
 import streamlit as st
 from prediction_helper import predict
 
