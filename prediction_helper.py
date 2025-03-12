@@ -1,10 +1,26 @@
 from joblib import load
 import pandas as pd
-model_rest = load("artifacts\model_rest.joblib")
-model_young = load("artifacts\model_young.joblib")
+import os
+from joblib import load
 
-scaler_rest = load("artifacts\scaler_rest.joblib")
-scaler_young = load("artifacts\scaler_young.joblib")
+model_rest_path = os.path.join("artifacts", "model_rest.joblib")
+model_rest = load(model_rest_path)
+
+model_young_path = os.path.join("artifacts", "model_young.joblib")
+model_young = load(model_young_path)
+
+scaler_rest_path = os.path.join("artifacts", "scaler_rest.joblib")
+scaler_rest = load(scaler_rest_path)
+
+scaler_young_path = os.path.join("artifacts", "scaler_young.joblib")
+scaler_young = load(scaler_young_path)
+
+
+#model_rest = load("artifacts\model_rest.joblib")
+#model_young = load("artifacts\model_young.joblib")
+
+#scaler_rest = load("artifacts\scaler_rest.joblib")
+#scaler_young = load("artifacts\scaler_young.joblib")
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {'diabetes': 6,
