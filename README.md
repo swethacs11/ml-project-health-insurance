@@ -12,3 +12,17 @@ the predicted and actual value on a minimum of 95% of the errors is less than 10
   
 - Created an interactive Streamlit application that an underwriter can use for predictions.
 
+## Data collection and Preprocessing :
+- Collected and cleaned labelled data sets
+- Performed Exploratory data analysis
+## Model Development
+- Train and evaluate multiple models.
+- Optimize the best model for accuracy
+## Model Deployment
+- Deploy the model on a cloud platform.
+- Ensure security and scalability.
+## Streamlit Application Development
+- Build an interactive app for inputting factors and displaying predictions.
+## Testing and Validation
+- Rigorous testing and validation with real-world data.
+
