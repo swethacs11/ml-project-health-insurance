@@ -1,2 +1,14 @@
-# ml-project-health-insurance
-Health insurance premium prediction project
+# Predictive Health Insurance Model for Shield Insurance
+
+AtliQ AI will develop a predictive model for Shield Insurance to estimate health insurance
+premiums based on factors like age, smoking habits, BMI, and medical history. 
+
+- A predictive model is built and deployed using streamlit application.
+
+- Developed a high-accuracy (>97%) predictive model. The percentage difference between
+the predicted and actual value on a minimum of 95% of the errors is less than 10%.
+
+- Deployed the model in the cloud so that an insurance underwriter can run it from anywhere.
+  
+- Created an interactive Streamlit application that an underwriter can use for predictions.
+
